@@ -1,0 +1,37 @@
+body {
+    background: darkcyan;
+}
+
+/* FONTS ======================== */
+$primaryFont: "Montserrat", sans-serif;
+$secondaryFont: "Droid Serif", serif;
+
+/* COLOURS ====================== */
+$peach: #daa66f;
+$primaryColour: #202020;
+$secondaryColour: #f6f6f6; 
+
+/* WRAPPER ====================== */
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* H2 =========================== */
+
+h2 {
+    color: $primaryColour;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: $primaryFont;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* IMAGES ====================== */
+
+img {
+    max-width: 100%;
+}
