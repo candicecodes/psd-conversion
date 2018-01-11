@@ -13,7 +13,7 @@
 
 <!-- HEADER ================================ -->
 
-    <header class="header">
+    <header class="header" id="home">
         <div class="topHeader">
             <div class="trada">
                 Trada
@@ -21,13 +21,13 @@
             <div class="wrapper">
                 <nav class="headerNav">
                     <ul>
-                        <li class="headerNav__item"><a href="">Home</a></li>
-                        <li class="headerNav__item"><a href="">About</a></li>
-                        <li class="headerNav__item"><a href="">Teams</a></li>
-                        <li class="headerNav__item"><a href="">Work</a></li>
-                        <li class="headerNav__item"><a href="">Process</a></li>
-                        <li class="headerNav__item"><a href="">Blog</a></li>
-                        <li class="headerNav__item"><a href="">Contact</a></li>
+                        <li class="headerNav__item"><a href="#home">Home</a></li>
+                        <li class="headerNav__item"><a href="#about">About</a></li>
+                        <li class="headerNav__item"><a href="#teams">Teams</a></li>
+                        <li class="headerNav__item"><a href="#work">Work</a></li>
+                        <li class="headerNav__item"><a href="#process">Process</a></li>
+                        <li class="headerNav__item"><a href="#blog">Blog</a></li>
+                        <li class="headerNav__item"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -56,7 +56,7 @@
 
 <!-- MAIN ================================ -->
 
-    <main>
+    <main id="about">
         <h2>Who we are</h2>
         <div class="flex-container">            
             <div class="line"></div>
@@ -136,7 +136,7 @@
 
 <!-- SERVICES ============================ -->
 
-    <section class="services">
+    <section class="services" id="teams">
         <div class="services__aside clearfix">
             <h2>Our services</h2>
             <h3>Web design</h3>
@@ -156,7 +156,7 @@
 
 <!-- WORKS =============================== -->
 
-    <section class="works">
+    <section class="works" id="work">
         <h2>Our works</h2>
         <div class="flex-container">
             <div class="line"></div>
@@ -248,7 +248,7 @@
 
 <!-- PROCESS ============================= -->
 
-    <section class="process">
+    <section class="process" id="process">
         <h2>The process</h2>
         <div class="flex-container">
             <div class="line"></div>
@@ -301,7 +301,7 @@
 
 <!-- CLIENTS ============================= -->
 
-    <section class="clients">
+    <section class="clients" id="blog">
         <h2>What clients say</h2>
         <div class="flex-container">
             <div class="line"></div>
@@ -348,7 +348,7 @@
 
 <!-- CONTACT ============================= -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="wrapper">
             <h2>Get in touch</h2>
             <div class="flex-container">
@@ -417,15 +417,22 @@
             <div class="bottomFooter">
                 <p>Copyright ©2015 Designed by <span>AzureTheme</span>. All Rights Reserved.</p>
             </div>
-        <div class="arrowIcon">
-            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
-            <div class="backIcon">
-                <p>BA</p>
-                <p>CK</p>
+        <a href="#home">
+            <div class="arrowIcon">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                <div class="backIcon">
+                    <p>BA</p>
+                    <p>CK</p>
+                </div>
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
             </div>
-            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
-        </div>
+
+        </a>
     </footer>
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.js"></script>
+    <script src="smoothScroll.js"></script>
     
 </body>
 </html>
