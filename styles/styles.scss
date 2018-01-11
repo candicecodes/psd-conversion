@@ -110,26 +110,12 @@ li.headerNav__item {
     transform: translateX(-50%);
     z-index: 1;
     background-clip: padding-box;
-    // border-top: 6px solid rgba(221, 221, 221, 0.4);
-    // border-left: 6px solid rgba(221, 221, 221, 0.4);
-    // border-right: 6px solid rgba(221, 221, 221, 0.4);
     border: 6px solid rgba(221, 221, 221, 0.4);
     
 }
 
-// .whiteStroke {
-//     position: absolute;
-//     bottom: -32px;
-//     left: 50%;
-//     background: rgba(255,255,255,0.5);
-//     padding: 30px;
-//     border-radius: 50%;
-//     transform: translateX(-50%);
-// }
-
 .sliderNav {
     position: absolute;
-    // left: 44.7%;
     left: 50%;
     bottom: 50px;
     transform: translateX(-50%);
@@ -142,10 +128,6 @@ li.headerNav__item {
     height: 4px;
     background: rgba(255, 255, 255, 0.4);
     margin: 5px;
-    // position: absolute;
-    // left: 50%;
-    // bottom: 20px;
-
     &:hover {
         background: #d8a36b;
     }
@@ -162,7 +144,6 @@ main {
 main h2 {
     margin-top: 0;
     padding-top: 120px;
-    // position: relative;
     margin-bottom: 60px;
 }
 
@@ -176,27 +157,24 @@ main h2 {
 }
 
 .square {
-  width: 9px;
-  height: 9px;
-  background-color: $peach;
+    width: 9px;
+    height: 9px;
+    background-color: $peach;
 }
 
 .square-wrapper {
-  display: inline-block;
-  padding: 3px;
-//   background-color: white;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  
-  transform: rotate(45deg);
-//   margin: 0 auto;
+    display: inline-block;
+    padding: 3px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);  
+    transform: rotate(45deg);
     margin: 3px;
 }
 
 .line {
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 50px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50px;
 }
 
 main p {
@@ -211,8 +189,7 @@ main p {
 main .centerBtn {
     text-align: center;
     margin-bottom: 100px;
-    margin-top: 60px;
-    
+    margin-top: 60px;    
 }
 
 .btn {
@@ -483,7 +460,6 @@ main .centerBtn {
 
 .image__aside {
     background-image: url(../images/skull.jpg);
-    // background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -552,7 +528,6 @@ main .centerBtn {
     left: 50%;    
     transform: translateX(-50%);
     background: white;
-    // display: block;
     border-radius: 50%;
     background-clip: padding-box;
     border: 6px solid rgba(221, 221, 221, 0.4);
@@ -560,7 +535,6 @@ main .centerBtn {
 
 .services__aside--icon1 {
     top: 26%;
-    // padding: 28px;
     padding: 20px;
 }
 
@@ -600,9 +574,7 @@ main .centerBtn {
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 70px;
-    // justify-content: space-between;
     li {
-        // justify-content: space-between;
         &:first-child > a{
             padding: 13px 38px;
             border-radius: 22px 0 0 22px;
@@ -725,7 +697,6 @@ main .centerBtn {
 
 .facts .container__item {
     padding-top: 40px;
-    // padding: 60px;
     width: 22%;
     border: 3px solid white;
     text-align: center;
@@ -817,7 +788,6 @@ main .centerBtn {
     margin-top: 40px;
     z-index: 1;
     padding: 50px 50px 50px 50px;
-    // padding-bottom: 70px;
     position:absolute;
     left: 44.5%;
 }
@@ -1023,7 +993,6 @@ main .centerBtn {
             padding: 11.5px;
         }
         .mySubject {
-            // margin-bottom: 20px;
             padding: 11.5px;
         }
     }
@@ -1073,14 +1042,12 @@ main .centerBtn {
 
 .footer__container {
     width: 33%
-
 }
 
 .footer__container p {
     font-size: 14px;
     font-family: $secondaryFont;
-    color: rgba(255,255,255,0.5);
-    
+    color: rgba(255,255,255,0.5);    
 }
 
 .footer__container:first-child {
@@ -1308,7 +1275,6 @@ main .centerBtn {
 
     .services h2 {
         text-align: left;
-        // margin-left: 30px;
         &::before, &::after {
             left: 0;
         }        
